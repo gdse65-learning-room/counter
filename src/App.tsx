@@ -1,9 +1,14 @@
 import './App.css';
+import Counter from './Counter';
 import User from "./User";
 
 function App() {
   return (
-      <User />
+    <>
+    {/* <User /> */}
+    <Counter />
+    </>
+      
   );
 }
 
